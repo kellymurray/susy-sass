@@ -1,0 +1,15 @@
+.social {
+  /* Adds a padding of 19px to each side of the .social container */
+  padding: 5.26316%;
+  /* Adding a clearfix because all children elements are floated */ }
+  .social .social__list-item {
+    /* Telling Susy that there are 10 items, and each takes up 1 row */
+    width: 8.16327%;
+    float: left;
+    margin-right: 2.04082%;
+    /* Another way to tell Susy that this is the last item in the row */ }
+    .social .social__list-item:last-child {
+      float: right;
+      margin-right: 0; }
+
+/*# sourceMappingURL=styles.css.map */
